@@ -5,6 +5,7 @@ class Content extends Component {
         return(
             <div>
                 <h1>Ini Halaman Content</h1>
+                <p>Ini untuk tambahannya</p>
             </div>
         )
     }
