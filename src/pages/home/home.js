@@ -1,9 +1,14 @@
 import React, { Component } from "react";
 import './home.css';
+import NavHome from "./nav/nav";
 
 class Home extends Component {
     render() {
-        return <h1 className="title-home">Ini halaman Home</h1>
+        return(
+            <div>
+                <NavHome />
+            </div>
+        )
     }
 }
 
